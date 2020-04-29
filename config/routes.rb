@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
+  root 'tops#home'
   get 'tops/home'
-
   get 'tops/help'
-
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  get 'tops/about'
 end
